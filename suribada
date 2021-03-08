@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "안녕하세요 youtube-dl 음악 다운로더 수리바다 입니다."
+echo "mp3 화하실 youtube link 를 입력해주세요~"
+
+read url
+echo "입력하신 url 은 $url 입니다."
+echo "다운로드를 시작합니다."
+
+youtube-dl -x --audio-format mp3 $url
+
