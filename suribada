@@ -1,5 +1,14 @@
 #!/bin/sh
 
+# youtube-dl 설치
+# sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+
+# 코덱설치
+# brew install ffmpeg
+
+# 권한설정
+# sudo chmod a+rx /usr/local/bin/youtube-dl
+
 echo "안녕하세요 youtube-dl 음악 다운로더 수리바다 입니다."
 echo "mp3 화하실 youtube link 를 입력해주세요~"
 
